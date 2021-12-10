@@ -32,7 +32,13 @@ html {
 }
 p {
   line-height: 1.75;
+  text-align: center;
 }
+.navbar-nav li{
+  align-items: center;
+  padding-left: 20px;
+}
+
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 2rem;
@@ -71,7 +77,6 @@ p {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 0.95rem;
-  color: #fff;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
