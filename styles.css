@@ -182,8 +182,8 @@ p {
 }
 
 .portfolio-modal .modal-dialog {
-  margin: 1rem;
-  max-width: 100vw;
+  -webkit-box-align: center;
+  max-width: 60vw;
 }
 .portfolio-modal .modal-content {
   padding-top: 3rem;
